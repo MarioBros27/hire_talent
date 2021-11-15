@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01365DC3247D937400DF5F6D /* ViewEmployerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01365DC2247D937400DF5F6D /* ViewEmployerViewController.swift */; };
+		01365DC5247D9AC600DF5F6D /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01365DC4247D9AC600DF5F6D /* RatingControl.swift */; };
+		0141D56F2457E44F00F03A56 /* ShowStudentsInOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141D56E2457E44F00F03A56 /* ShowStudentsInOfferViewController.swift */; };
+		01861B63247836BD00980AC4 /* StudentNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01861B62247836BD00980AC4 /* StudentNotificationsViewController.swift */; };
+		0197418E2479D67E00BFC329 /* StudentOffersMatchedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0197418D2479D67E00BFC329 /* StudentOffersMatchedViewController.swift */; };
+		01AAA7082474867800040532 /* ShowStudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AAA7072474867800040532 /* ShowStudentDetailViewController.swift */; };
+		01F9C37C2456602000E6DEC7 /* JobOffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F9C37B2456602000E6DEC7 /* JobOffersViewController.swift */; };
+		410EAA952467886A0014B883 /* EditOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EAA942467886A0014B883 /* EditOfferViewController.swift */; };
+		410EAA97246789DA0014B883 /* OfferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EAA96246789DA0014B883 /* OfferDelegate.swift */; };
+		41B7ED3124673C4500EBE3B8 /* EditStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B7ED3024673C4500EBE3B8 /* EditStudentViewController.swift */; };
+		41B7ED34246765F400EBE3B8 /* StudentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B7ED33246765F400EBE3B8 /* StudentDelegate.swift */; };
+		41C43387244387B8000C1C97 /* SignUpStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C43386244387B8000C1C97 /* SignUpStudentViewController.swift */; };
+		41C43389244388F7000C1C97 /* SignUpOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C43388244388F7000C1C97 /* SignUpOptionViewController.swift */; };
+		41C4338E2443C225000C1C97 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4338D2443C225000C1C97 /* ExperienceViewController.swift */; };
+		41C433902443CD06000C1C97 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4338F2443CD06000C1C97 /* Student.swift */; };
+		41C433922443DDC9000C1C97 /* StudentDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C433912443DDC9000C1C97 /* StudentDAO.swift */; };
+		41C4339424441103000C1C97 /* StudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4339324441103000C1C97 /* StudentHomeViewController.swift */; };
+		8C05C0B924636D600053A350 /* Student.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C05C0B824636D600053A350 /* Student.storyboard */; };
+		8C0D03EF243A814100B2BC78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C0D03EE243A814100B2BC78 /* GoogleService-Info.plist */; };
+		8C0D03F1243BB27B00B2BC78 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D03F0243BB27B00B2BC78 /* SignUpViewController.swift */; };
+		8C0D03F3243BB29300B2BC78 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D03F2243BB29300B2BC78 /* LoginViewController.swift */; };
+		8C0D03F5243BB2B300B2BC78 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D03F4243BB2B300B2BC78 /* HomeViewController.swift */; };
+		8C21E5F82469BDDD006674AE /* JobOfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C21E5F72469BDDD006674AE /* JobOfferCell.swift */; };
+		8C21E5FA2469C3D3006674AE /* EmployerOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C21E5F92469C3D3006674AE /* EmployerOfferViewController.swift */; };
+		8C2B35802454B4D8009A99D0 /* EmployerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B357F2454B4D8009A99D0 /* EmployerMenuViewController.swift */; };
+		8C2B35832454BAF8009A99D0 /* Employer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2B35822454BAF8009A99D0 /* Employer.storyboard */; };
+		8C3646AA244A15520024153E /* JobOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3646A9244A15520024153E /* JobOffer.swift */; };
+		8C3646AC244A16970024153E /* JobOffersDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3646AB244A16970024153E /* JobOffersDAO.swift */; };
+		8C3E4C602448032E008C036F /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C3E4C5F2448032E008C036F /* profile.jpg */; };
+		8C60EBEF243D07D400E35862 /* mainScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C60EBEE243D07D400E35862 /* mainScreen.jpg */; };
+		8C7309F3243BDDCC0090C21D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7309F2243BDDCC0090C21D /* Utilities.swift */; };
+		8C786395246775E4007A4A7C /* ViewStudentOffersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C786394246775E4007A4A7C /* ViewStudentOffersController.swift */; };
+		8C78639724679D92007A4A7C /* JobOfferDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C78639624679D92007A4A7C /* JobOfferDetailViewController.swift */; };
+		8C7863992467AFBC007A4A7C /* google_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7863982467AFBC007A4A7C /* google_logo.png */; };
+		8C7DF535246383B400417CC9 /* StudentMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DF534246383B400417CC9 /* StudentMenuViewController.swift */; };
+		8C867529243ECAF90068B03B /* EmployerDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C867528243ECAF90068B03B /* EmployerDAO.swift */; };
+		8C86752B243EFA880068B03B /* CompanyDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86752A243EFA880068B03B /* CompanyDAO.swift */; };
+		8CBED0E7244CCA5300E78ED3 /* UserDA0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBED0E6244CCA5300E78ED3 /* UserDA0.swift */; };
+		8CD3E0E42449748D00B88845 /* CreateOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3E0E32449748D00B88845 /* CreateOfferViewController.swift */; };
+		8CD3E0E62449EAAA00B88845 /* UITextFieldAndDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3E0E52449EAAA00B88845 /* UITextFieldAndDate.swift */; };
+		8CE4237A243A788800846E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE42379243A788800846E86 /* AppDelegate.swift */; };
+		8CE4237C243A788800846E86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE4237B243A788800846E86 /* SceneDelegate.swift */; };
+		8CE4237E243A788800846E86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE4237D243A788800846E86 /* ViewController.swift */; };
+		8CE42381243A788800846E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE4237F243A788800846E86 /* Main.storyboard */; };
+		8CE42383243A788A00846E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE42382243A788A00846E86 /* Assets.xcassets */; };
+		8CE42386243A788A00846E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE42384243A788A00846E86 /* LaunchScreen.storyboard */; };
+		8CE71481243E5BE600D08928 /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE71480243E5BE600D08928 /* Employer.swift */; };
+		8CE71483243E651700D08928 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE71482243E651700D08928 /* Company.swift */; };
+		8CF0A8D52446D6EA00BF615E /* interns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CF0A8D42446D6EA00BF615E /* interns.jpg */; };
+		C3976E432458B6BB0058C1F9 /* studentProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = C3976E422458B6BA0058C1F9 /* studentProfile.png */; };
+		ECDB31FF34CEFE7BEDFCF0A1 /* Pods_HireTalent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5442D0D49DF7F0B372E2D957 /* Pods_HireTalent.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01365DC2247D937400DF5F6D /* ViewEmployerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEmployerViewController.swift; sourceTree = "<group>"; };
+		01365DC4247D9AC600DF5F6D /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		0141D56E2457E44F00F03A56 /* ShowStudentsInOfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStudentsInOfferViewController.swift; sourceTree = "<group>"; };
+		01861B62247836BD00980AC4 /* StudentNotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentNotificationsViewController.swift; sourceTree = "<group>"; };
+		0197418D2479D67E00BFC329 /* StudentOffersMatchedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentOffersMatchedViewController.swift; sourceTree = "<group>"; };
+		01AAA7072474867800040532 /* ShowStudentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStudentDetailViewController.swift; sourceTree = "<group>"; };
+		01F9C37B2456602000E6DEC7 /* JobOffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobOffersViewController.swift; sourceTree = "<group>"; };
+		410EAA942467886A0014B883 /* EditOfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditOfferViewController.swift; sourceTree = "<group>"; };
+		410EAA96246789DA0014B883 /* OfferDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDelegate.swift; sourceTree = "<group>"; };
+		41B7ED3024673C4500EBE3B8 /* EditStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStudentViewController.swift; sourceTree = "<group>"; };
+		41B7ED33246765F400EBE3B8 /* StudentDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDelegate.swift; sourceTree = "<group>"; };
+		41C43386244387B8000C1C97 /* SignUpStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpStudentViewController.swift; sourceTree = "<group>"; };
+		41C43388244388F7000C1C97 /* SignUpOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpOptionViewController.swift; sourceTree = "<group>"; };
+		41C4338D2443C225000C1C97 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+		41C4338F2443CD06000C1C97 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		41C433912443DDC9000C1C97 /* StudentDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDAO.swift; sourceTree = "<group>"; };
+		41C4339324441103000C1C97 /* StudentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomeViewController.swift; sourceTree = "<group>"; };
+		5442D0D49DF7F0B372E2D957 /* Pods_HireTalent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HireTalent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A59F020F03BB0BF96DD785B /* Pods-HireTalent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HireTalent.debug.xcconfig"; path = "Target Support Files/Pods-HireTalent/Pods-HireTalent.debug.xcconfig"; sourceTree = "<group>"; };
+		8C05C0B824636D600053A350 /* Student.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Student.storyboard; sourceTree = "<group>"; };
+		8C0D03EE243A814100B2BC78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C0D03F0243BB27B00B2BC78 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8C0D03F2243BB29300B2BC78 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8C0D03F4243BB2B300B2BC78 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8C21E5F72469BDDD006674AE /* JobOfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobOfferCell.swift; sourceTree = "<group>"; };
+		8C21E5F92469C3D3006674AE /* EmployerOfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerOfferViewController.swift; sourceTree = "<group>"; };
+		8C2B357F2454B4D8009A99D0 /* EmployerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerMenuViewController.swift; sourceTree = "<group>"; };
+		8C2B35822454BAF8009A99D0 /* Employer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Employer.storyboard; sourceTree = "<group>"; };
+		8C3646A9244A15520024153E /* JobOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobOffer.swift; sourceTree = "<group>"; };
+		8C3646AB244A16970024153E /* JobOffersDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobOffersDAO.swift; sourceTree = "<group>"; };
+		8C3E4C5F2448032E008C036F /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		8C60EBEE243D07D400E35862 /* mainScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainScreen.jpg; sourceTree = "<group>"; };
+		8C7309F2243BDDCC0090C21D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8C786394246775E4007A4A7C /* ViewStudentOffersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStudentOffersController.swift; sourceTree = "<group>"; };
+		8C78639624679D92007A4A7C /* JobOfferDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobOfferDetailViewController.swift; sourceTree = "<group>"; };
+		8C7863982467AFBC007A4A7C /* google_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_logo.png; sourceTree = "<group>"; };
+		8C7DF534246383B400417CC9 /* StudentMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMenuViewController.swift; sourceTree = "<group>"; };
+		8C867528243ECAF90068B03B /* EmployerDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerDAO.swift; sourceTree = "<group>"; };
+		8C86752A243EFA880068B03B /* CompanyDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDAO.swift; sourceTree = "<group>"; };
+		8CBED0E6244CCA5300E78ED3 /* UserDA0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDA0.swift; sourceTree = "<group>"; };
+		8CD3E0E32449748D00B88845 /* CreateOfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOfferViewController.swift; sourceTree = "<group>"; };
+		8CD3E0E52449EAAA00B88845 /* UITextFieldAndDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldAndDate.swift; sourceTree = "<group>"; };
+		8CE42376243A788800846E86 /* HireTalent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HireTalent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE42379243A788800846E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CE4237B243A788800846E86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CE4237D243A788800846E86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CE42380243A788800846E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CE42382243A788A00846E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CE42385243A788A00846E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CE42387243A788A00846E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE71480243E5BE600D08928 /* Employer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employer.swift; sourceTree = "<group>"; };
+		8CE71482243E651700D08928 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		8CF0A8D42446D6EA00BF615E /* interns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = interns.jpg; sourceTree = "<group>"; };
+		ADAA34DAC9C1B49D711F053A /* Pods-HireTalent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HireTalent.release.xcconfig"; path = "Target Support Files/Pods-HireTalent/Pods-HireTalent.release.xcconfig"; sourceTree = "<group>"; };
+		C3976E422458B6BA0058C1F9 /* studentProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = studentProfile.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE42373243A788800846E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDB31FF34CEFE7BEDFCF0A1 /* Pods_HireTalent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41B7ED32246765DD00EBE3B8 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8CE4237B243A788800846E86 /* SceneDelegate.swift */,
+				41B7ED33246765F400EBE3B8 /* StudentDelegate.swift */,
+				410EAA96246789DA0014B883 /* OfferDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		41B7ED35246771A400EBE3B8 /* Offer */ = {
+			isa = PBXGroup;
+			children = (
+				01F9C37B2456602000E6DEC7 /* JobOffersViewController.swift */,
+				0141D56E2457E44F00F03A56 /* ShowStudentsInOfferViewController.swift */,
+				8CD3E0E32449748D00B88845 /* CreateOfferViewController.swift */,
+				410EAA942467886A0014B883 /* EditOfferViewController.swift */,
+				8C21E5F72469BDDD006674AE /* JobOfferCell.swift */,
+				8C21E5F92469C3D3006674AE /* EmployerOfferViewController.swift */,
+				01AAA7072474867800040532 /* ShowStudentDetailViewController.swift */,
+			);
+			path = Offer;
+			sourceTree = "<group>";
+		};
+		4A8623E2BFEF9BB5F1D0A924 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A59F020F03BB0BF96DD785B /* Pods-HireTalent.debug.xcconfig */,
+				ADAA34DAC9C1B49D711F053A /* Pods-HireTalent.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89F80F5E94B27C0731B261CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5442D0D49DF7F0B372E2D957 /* Pods_HireTalent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C0D03F6243BB2CC00B2BC78 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C7DF5322463833900417CC9 /* Student */,
+				8C7DF531246382C900417CC9 /* Employer */,
+				8C0D03F2243BB29300B2BC78 /* LoginViewController.swift */,
+				8CE4237D243A788800846E86 /* ViewController.swift */,
+				41C43388244388F7000C1C97 /* SignUpOptionViewController.swift */,
+				01365DC4247D9AC600DF5F6D /* RatingControl.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8C2B35812454BAC2009A99D0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8CE42384243A788A00846E86 /* LaunchScreen.storyboard */,
+				8CE4237F243A788800846E86 /* Main.storyboard */,
+				8C2B35822454BAF8009A99D0 /* Employer.storyboard */,
+				8C05C0B824636D600053A350 /* Student.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8C60EBE7243CFCFD00E35862 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				C3976E422458B6BA0058C1F9 /* studentProfile.png */,
+				8C60EBEE243D07D400E35862 /* mainScreen.jpg */,
+				8C3E4C5F2448032E008C036F /* profile.jpg */,
+				8C7863982467AFBC007A4A7C /* google_logo.png */,
+				8CF0A8D42446D6EA00BF615E /* interns.jpg */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		8C7309F4243BDDE60090C21D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8C7309F2243BDDCC0090C21D /* Utilities.swift */,
+				8CD3E0E52449EAAA00B88845 /* UITextFieldAndDate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8C7DF531246382C900417CC9 /* Employer */ = {
+			isa = PBXGroup;
+			children = (
+				41B7ED35246771A400EBE3B8 /* Offer */,
+				8C0D03F0243BB27B00B2BC78 /* SignUpViewController.swift */,
+				8C0D03F4243BB2B300B2BC78 /* HomeViewController.swift */,
+				8C2B357F2454B4D8009A99D0 /* EmployerMenuViewController.swift */,
+			);
+			path = Employer;
+			sourceTree = "<group>";
+		};
+		8C7DF5322463833900417CC9 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				41C43386244387B8000C1C97 /* SignUpStudentViewController.swift */,
+				41C4338D2443C225000C1C97 /* ExperienceViewController.swift */,
+				41C4339324441103000C1C97 /* StudentHomeViewController.swift */,
+				8C7DF534246383B400417CC9 /* StudentMenuViewController.swift */,
+				41B7ED3024673C4500EBE3B8 /* EditStudentViewController.swift */,
+				8C786394246775E4007A4A7C /* ViewStudentOffersController.swift */,
+				8C78639624679D92007A4A7C /* JobOfferDetailViewController.swift */,
+				01861B62247836BD00980AC4 /* StudentNotificationsViewController.swift */,
+				0197418D2479D67E00BFC329 /* StudentOffersMatchedViewController.swift */,
+				01365DC2247D937400DF5F6D /* ViewEmployerViewController.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		8C867527243ECACA0068B03B /* DAO's */ = {
+			isa = PBXGroup;
+			children = (
+				8C867528243ECAF90068B03B /* EmployerDAO.swift */,
+				8C86752A243EFA880068B03B /* CompanyDAO.swift */,
+				41C433912443DDC9000C1C97 /* StudentDAO.swift */,
+				8C3646AB244A16970024153E /* JobOffersDAO.swift */,
+				8CBED0E6244CCA5300E78ED3 /* UserDA0.swift */,
+			);
+			path = "DAO's";
+			sourceTree = "<group>";
+		};
+		8CE4236D243A788800846E86 = {
+			isa = PBXGroup;
+			children = (
+				8CE42378243A788800846E86 /* HireTalent */,
+				8CE42377243A788800846E86 /* Products */,
+				4A8623E2BFEF9BB5F1D0A924 /* Pods */,
+				89F80F5E94B27C0731B261CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE42377243A788800846E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE42376243A788800846E86 /* HireTalent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE42378243A788800846E86 /* HireTalent */ = {
+			isa = PBXGroup;
+			children = (
+				41B7ED32246765DD00EBE3B8 /* Delegates */,
+				8C2B35812454BAC2009A99D0 /* Storyboards */,
+				8CE42382243A788A00846E86 /* Assets.xcassets */,
+				8CE42379243A788800846E86 /* AppDelegate.swift */,
+				8C867527243ECACA0068B03B /* DAO's */,
+				8C0D03EE243A814100B2BC78 /* GoogleService-Info.plist */,
+				8C7309F4243BDDE60090C21D /* Helpers */,
+				8CE42387243A788A00846E86 /* Info.plist */,
+				8C60EBE7243CFCFD00E35862 /* Media */,
+				8CE7147F243E5BA600D08928 /* Models */,
+				8C0D03F6243BB2CC00B2BC78 /* ViewControllers */,
+			);
+			path = HireTalent;
+			sourceTree = "<group>";
+		};
+		8CE7147F243E5BA600D08928 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CE71480243E5BE600D08928 /* Employer.swift */,
+				8CE71482243E651700D08928 /* Company.swift */,
+				41C4338F2443CD06000C1C97 /* Student.swift */,
+				8C3646A9244A15520024153E /* JobOffer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE42375243A788800846E86 /* HireTalent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE4238A243A788A00846E86 /* Build configuration list for PBXNativeTarget "HireTalent" */;
+			buildPhases = (
+				E027441589ABFAC9173EBC39 /* [CP] Check Pods Manifest.lock */,
+				8CE42372243A788800846E86 /* Sources */,
+				8CE42373243A788800846E86 /* Frameworks */,
+				8CE42374243A788800846E86 /* Resources */,
+				8F699E71B689CE842D165F56 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HireTalent;
+			productName = HireTalent;
+			productReference = 8CE42376243A788800846E86 /* HireTalent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE4236E243A788800846E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Dream Team";
+				TargetAttributes = {
+					8CE42375243A788800846E86 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 8CE42371243A788800846E86 /* Build configuration list for PBXProject "HireTalent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE4236D243A788800846E86;
+			productRefGroup = 8CE42377243A788800846E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE42375243A788800846E86 /* HireTalent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE42374243A788800846E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3976E432458B6BB0058C1F9 /* studentProfile.png in Resources */,
+				8CE42386243A788A00846E86 /* LaunchScreen.storyboard in Resources */,
+				8CF0A8D52446D6EA00BF615E /* interns.jpg in Resources */,
+				8C0D03EF243A814100B2BC78 /* GoogleService-Info.plist in Resources */,
+				8C05C0B924636D600053A350 /* Student.storyboard in Resources */,
+				8CE42383243A788A00846E86 /* Assets.xcassets in Resources */,
+				8C60EBEF243D07D400E35862 /* mainScreen.jpg in Resources */,
+				8CE42381243A788800846E86 /* Main.storyboard in Resources */,
+				8C7863992467AFBC007A4A7C /* google_logo.png in Resources */,
+				8C3E4C602448032E008C036F /* profile.jpg in Resources */,
+				8C2B35832454BAF8009A99D0 /* Employer.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F699E71B689CE842D165F56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HireTalent/Pods-HireTalent-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HireTalent/Pods-HireTalent-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HireTalent/Pods-HireTalent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E027441589ABFAC9173EBC39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HireTalent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE42372243A788800846E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2B35802454B4D8009A99D0 /* EmployerMenuViewController.swift in Sources */,
+				8C3646AC244A16970024153E /* JobOffersDAO.swift in Sources */,
+				410EAA97246789DA0014B883 /* OfferDelegate.swift in Sources */,
+				01365DC3247D937400DF5F6D /* ViewEmployerViewController.swift in Sources */,
+				8CE4237E243A788800846E86 /* ViewController.swift in Sources */,
+				8CE71481243E5BE600D08928 /* Employer.swift in Sources */,
+				8C3646AA244A15520024153E /* JobOffer.swift in Sources */,
+				8CE4237A243A788800846E86 /* AppDelegate.swift in Sources */,
+				8CE71483243E651700D08928 /* Company.swift in Sources */,
+				8C21E5FA2469C3D3006674AE /* EmployerOfferViewController.swift in Sources */,
+				8CBED0E7244CCA5300E78ED3 /* UserDA0.swift in Sources */,
+				8C7309F3243BDDCC0090C21D /* Utilities.swift in Sources */,
+				01AAA7082474867800040532 /* ShowStudentDetailViewController.swift in Sources */,
+				8C786395246775E4007A4A7C /* ViewStudentOffersController.swift in Sources */,
+				8CD3E0E42449748D00B88845 /* CreateOfferViewController.swift in Sources */,
+				8C21E5F82469BDDD006674AE /* JobOfferCell.swift in Sources */,
+				41B7ED3124673C4500EBE3B8 /* EditStudentViewController.swift in Sources */,
+				0197418E2479D67E00BFC329 /* StudentOffersMatchedViewController.swift in Sources */,
+				8C0D03F1243BB27B00B2BC78 /* SignUpViewController.swift in Sources */,
+				41C43389244388F7000C1C97 /* SignUpOptionViewController.swift in Sources */,
+				41C433922443DDC9000C1C97 /* StudentDAO.swift in Sources */,
+				8C86752B243EFA880068B03B /* CompanyDAO.swift in Sources */,
+				8C0D03F3243BB29300B2BC78 /* LoginViewController.swift in Sources */,
+				01F9C37C2456602000E6DEC7 /* JobOffersViewController.swift in Sources */,
+				41C43387244387B8000C1C97 /* SignUpStudentViewController.swift in Sources */,
+				0141D56F2457E44F00F03A56 /* ShowStudentsInOfferViewController.swift in Sources */,
+				8CD3E0E62449EAAA00B88845 /* UITextFieldAndDate.swift in Sources */,
+				8C78639724679D92007A4A7C /* JobOfferDetailViewController.swift in Sources */,
+				01365DC5247D9AC600DF5F6D /* RatingControl.swift in Sources */,
+				410EAA952467886A0014B883 /* EditOfferViewController.swift in Sources */,
+				41C4339424441103000C1C97 /* StudentHomeViewController.swift in Sources */,
+				8C7DF535246383B400417CC9 /* StudentMenuViewController.swift in Sources */,
+				8CE4237C243A788800846E86 /* SceneDelegate.swift in Sources */,
+				41B7ED34246765F400EBE3B8 /* StudentDelegate.swift in Sources */,
+				01861B63247836BD00980AC4 /* StudentNotificationsViewController.swift in Sources */,
+				41C4338E2443C225000C1C97 /* ExperienceViewController.swift in Sources */,
+				8C0D03F5243BB2B300B2BC78 /* HomeViewController.swift in Sources */,
+				8C867529243ECAF90068B03B /* EmployerDAO.swift in Sources */,
+				41C433902443CD06000C1C97 /* Student.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CE4237F243A788800846E86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE42380243A788800846E86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CE42384243A788A00846E86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE42385243A788A00846E86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CE42388243A788A00846E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
+			};
+			name = Debug;
+		};
+		8CE42389243A788A00846E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE4238B243A788A00846E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A59F020F03BB0BF96DD785B /* Pods-HireTalent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7ZD8H5Y3M;
+				INFOPLIST_FILE = HireTalent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dream-team.HireTalent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CE4238C243A788A00846E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADAA34DAC9C1B49D711F053A /* Pods-HireTalent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7ZD8H5Y3M;
+				INFOPLIST_FILE = HireTalent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dream-team.HireTalent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE42371243A788800846E86 /* Build configuration list for PBXProject "HireTalent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE42388243A788A00846E86 /* Debug */,
+				8CE42389243A788A00846E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE4238A243A788A00846E86 /* Build configuration list for PBXNativeTarget "HireTalent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE4238B243A788A00846E86 /* Debug */,
+				8CE4238C243A788A00846E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE4236E243A788800846E86 /* Project object */;
+}
